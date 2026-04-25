@@ -1,0 +1,89 @@
+.container {
+  background-color: white;
+  padding: 2.5rem;
+  max-width: 500px;
+  margin: 3rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--borda);
+}
+
+.titulo {
+  text-align: center;
+  color: var(--texto-escuro);
+  margin-bottom: 0.5rem;
+}
+
+.subtitulo {
+  text-align: center;
+  color: var(--texto-claro);
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: var(--texto-escuro);
+  font-size: 0.95rem;
+}
+
+.labelDestaqueVerde {
+  color: var(--cor-primaria);
+}
+
+.labelDestaqueAzul {
+  color: var(--cor-secundaria);
+}
+
+.input {
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e0;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+  color: var(--texto-escuro);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--cor-secundaria);
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.btnSubmit {
+  padding: 14px;
+  background-color: #2d3748; /* Cor escura para o botão primário de form */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.05rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btnSubmit:hover {
+  background-color: #1a202c;
+}
+
+.textoRodape {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--texto-claro);
+}
+
+.link {
+  color: var(--cor-secundaria);
+  font-weight: bold;
+  text-decoration: none;
+}

@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+  padding: 2rem;
+}
+
+.titulo {
+  font-size: 3rem;
+  color: var(--texto-escuro);
+  margin-bottom: 1rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.destaque {
+  color: var(--cor-primaria);
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  color: var(--texto-claro);
+  max-width: 600px;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.botoes {
+  display: flex;
+  gap: 1rem;
+}
+
+.btnPrimario {
+  background-color: var(--cor-primaria);
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: background-color 0.2s;
+  box-shadow: 0 4px 6px rgba(40, 167, 69, 0.2);
+}
+
+.btnPrimario:hover {
+  background-color: var(--cor-primaria-hover);
+}
+
+.btnSecundario {
+  background-color: white;
+  color: var(--cor-primaria);
+  border: 2px solid var(--cor-primaria);
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.2s;
+}
+
+.btnSecundario:hover {
+  background-color: #f0fff4;
+}

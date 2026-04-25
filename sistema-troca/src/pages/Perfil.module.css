@@ -1,0 +1,85 @@
+
+.container {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.titulo {
+  color: var(--texto-escuro);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.card {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--borda);
+}
+
+.nome {
+  margin: 0 0 1rem 0;
+  font-size: 1.8rem;
+  color: var(--texto-escuro);
+}
+
+.info {
+  margin: 0.5rem 0;
+  color: var(--texto-claro);
+  font-size: 1.05rem;
+}
+
+.info strong {
+  color: var(--texto-escuro);
+}
+
+.linha {
+  border: none;
+  border-top: 1px solid var(--borda);
+  margin: 1.5rem 0;
+}
+
+.subtitulo {
+  margin: 0 0 1rem 0;
+  color: var(--texto-escuro);
+  font-size: 1.2rem;
+}
+
+.badgeContainer {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.badgeEnsina {
+  background-color: var(--cor-primaria);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+
+.badgeAprende {
+  background-color: var(--cor-secundaria);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+
+.aviso {
+  text-align: center;
+  margin-top: 50px;
+  color: var(--texto-claro);
+}
+
+.linkAviso {
+  color: var(--cor-secundaria);
+  font-weight: bold;
+  text-decoration: none;
+}

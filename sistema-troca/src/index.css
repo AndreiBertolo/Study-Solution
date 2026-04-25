@@ -1,0 +1,32 @@
+:root {
+  --cor-primaria: #00330ca9; /* Verde - Ensina */
+  --cor-primaria-hover: #218838;
+  --cor-secundaria: #007bff; /* Azul - Aprende */
+  --cor-secundaria-hover: #001a369a;
+  --fundo-tela: #b4b4b4;
+  --texto-escuro: #152541;
+  --texto-claro: #576a88;
+  --borda: #6d9ddb;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--fundo-tela);
+  color: var(--texto-escuro);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}

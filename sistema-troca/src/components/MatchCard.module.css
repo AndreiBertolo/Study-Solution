@@ -1,0 +1,79 @@
+
+
+.card {
+  border: 2px solid var(--cor-primaria);
+  padding: 20px;
+  border-radius: 12px;
+  background-color: white;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(40, 167, 69, 0.15);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.nome {
+  margin: 0;
+  color: var(--texto-escuro);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.icone {
+  font-size: 1.8rem;
+}
+
+.info {
+  margin: 0 0 15px 0;
+  font-size: 0.95rem;
+  color: var(--texto-claro);
+}
+
+.motivoBox {
+  background-color: #f0fff4;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #c3e6cb;
+  margin-bottom: 15px;
+}
+
+.motivoTitulo {
+  margin: 0 0 5px 0;
+  font-size: 0.85rem;
+  color: var(--texto-escuro);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.motivoTexto {
+  margin: 0;
+  color: #155724;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.btnContato {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--cor-primaria);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btnContato:hover {
+  background-color: var(--cor-primaria-hover);
+}
