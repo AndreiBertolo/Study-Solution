@@ -16,7 +16,7 @@ export default function NavBar() {
     <nav className={styles.header}>
       <div>
         <Link to="/" className={styles.logo}>
-          Troca de <span>Habilidades</span>
+          Study <span>Match</span>
         </Link>
       </div>
 

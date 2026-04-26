@@ -1,0 +1,52 @@
+/* src/pages/Matches.module.css */
+
+.container {
+  padding: 3rem 5%;
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 80vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3.5rem; /* Espaço generoso abaixo do título */
+}
+
+.titulo {
+  font-size: 2.5rem;
+  color: var(--texto-escuro);
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.subtitulo {
+  color: var(--texto-claro);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Espaço entre cada MatchCard */
+  margin-top: 2rem;
+}
+
+.semMatches {
+  text-align: center;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 12px;
+  border: 2px dashed var(--borda);
+  color: var(--texto-claro);
+}
+
+.linkExplorar {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: var(--cor-secundaria);
+  font-weight: bold;
+  text-decoration: none;
+}

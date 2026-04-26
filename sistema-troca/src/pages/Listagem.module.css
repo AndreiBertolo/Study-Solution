@@ -1,0 +1,86 @@
+.container {
+  padding: 2rem 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 2.2rem;
+  color: var(--texto-escuro);
+  margin-bottom: 0.5rem;
+}
+
+.subtitulo {
+  color: var(--texto-claro);
+  font-size: 1.1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid var(--borda);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nome {
+  font-size: 1.25rem;
+  color: var(--texto-escuro);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.curso {
+  font-size: 0.9rem;
+  color: var(--cor-secundaria);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.habilidades {
+  margin-top: auto;
+  border-top: 1px solid var(--fundo-tela);
+  padding-top: 1rem;
+}
+
+.itemHabilidade {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: var(--texto-claro);
+}
+
+.itemHabilidade strong {
+  color: var(--texto-escuro);
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.badgeEnsina { background-color: #d4edda; color: #155724; }
+.badgeAprende { background-color: #cce5ff; color: #004085; }

@@ -1,10 +1,12 @@
 :root {
-  --cor-primaria: #00330ca9; /* Verde - Ensina */
-  --cor-primaria-hover: #218838;
+  --cor-primaria: #470081; 
+  --cor-primaria-hover: #240042;
   --cor-secundaria: #007bff; /* Azul - Aprende */
   --cor-secundaria-hover: #001a369a;
-  --fundo-tela: #b4b4b4;
-  --texto-escuro: #152541;
+  --cor-ensina: #176100; /* Verde - Ensina */
+  --cor-aprende: #003b7a; /* Azul - Aprende */
+  --fundo-tela: #ffffff;
+  --texto-escuro: #3a0069;
   --texto-claro: #576a88;
   --borda: #6d9ddb;
 }

@@ -11,7 +11,7 @@ export default function Home() {
       
       <p className={styles.subtitulo}>
         A plataforma colaborativa onde estudantes trocam conhecimentos de forma gratuita. 
-        O nosso algoritmo cruza as tuas habilidades e encontra o parceiro de estudos ideal.
+    
       </p>
       
       <div className={styles.botoes}>
